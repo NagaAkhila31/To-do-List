@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draggable To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>To-Do List</h1>
+  
+  <div id="taskInput">
+    <input type="text" id="newTask" placeholder="Enter a new task">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+  
+  <div class="board">
+    <div class="box" id="todo">
+      <h2>To Do</h2>
+    </div>
+    
+    <div class="box" id="On Progress">
+      <h2>On Progress</h2>
+    </div>
+    
+    <div class="box" id="almostThere">
+      <h2>Almost There</h2>
+    </div>
+    
+    <div class="box" id="stop">
+      <h2>Stop</h2>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Naga Akhila.M</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
